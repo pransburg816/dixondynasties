@@ -1,14 +1,12 @@
 # -------------------------------------------------------
 # WordPress Core
 # -------------------------------------------------------
-# These directories contain core WordPress code that can be installed separately.
 wp-admin/
 wp-includes/
 
 # -------------------------------------------------------
 # WordPress Cache, Backups, and Upgrades
 # -------------------------------------------------------
-# These directories store temporary files, cache, or backup files.
 wp-content/cache/
 wp-content/backups/
 wp-content/upgrade/
@@ -16,9 +14,13 @@ wp-content/upgrade/
 # -------------------------------------------------------
 # Sensitive Configuration Files
 # -------------------------------------------------------
-# The configuration file may contain database credentials and other sensitive data.
 wp-config.php
 wp-config-*.php
+
+# -------------------------------------------------------
+# Ignore sftp-config file (commonly used for SFTP deployments)
+# -------------------------------------------------------
+sftp-config.json
 
 # -------------------------------------------------------
 # Optional: Custom Content Only
@@ -35,7 +37,6 @@ wp-config-*.php
 # -------------------------------------------------------
 # System Files
 # -------------------------------------------------------
-# OS-specific files that do not belong in version control.
 .DS_Store
 Thumbs.db
 

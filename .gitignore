@@ -1,0 +1,46 @@
+# -------------------------------------------------------
+# WordPress Core
+# -------------------------------------------------------
+# These directories contain core WordPress code that can be installed separately.
+wp-admin/
+wp-includes/
+
+# -------------------------------------------------------
+# WordPress Cache, Backups, and Upgrades
+# -------------------------------------------------------
+# These directories store temporary files, cache, or backup files.
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+
+# -------------------------------------------------------
+# Sensitive Configuration Files
+# -------------------------------------------------------
+# The configuration file may contain database credentials and other sensitive data.
+wp-config.php
+wp-config-*.php
+
+# -------------------------------------------------------
+# Optional: Custom Content Only
+# -------------------------------------------------------
+# If you want to track only your custom themes and plugins, you might ignore everything in wp-content,
+# then selectively re-include the directories you need.
+#
+# wp-content/*
+# !wp-content/themes/
+# !wp-content/plugins/
+# !wp-content/mu-plugins/
+# !wp-content/languages/
+
+# -------------------------------------------------------
+# System Files
+# -------------------------------------------------------
+# OS-specific files that do not belong in version control.
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Environment files
+.env
